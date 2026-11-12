@@ -5,7 +5,8 @@ description: Waldo's Rescue Pen foster outreach. (1) Update the public "Fosters 
 
 # Waldo's foster page + texting
 
-Repo: `~/waldos-fosters` (private GitHub repo `waldos-fosters`, Pages served from `/docs`).
+Repo: `~/waldos-fosters` (public GitHub repo `waldosrescuepen/waldos-fosters`, Pages served from `/docs`).
+Live page: https://waldosrescuepen.github.io/waldos-fosters/ (GitHub account: waldosrescuepen). The repo is public, so never commit phone numbers, emails or logs.
 - `dogs.json`: the page content (one entry per dog). **Edit this, never `docs/index.html`.**
 - `build.py`: `python3 build.py` renders `docs/index.html` from dogs.json.
 - `docs/photos/`: photos copied locally (optional; Petstablished photo URLs work directly).
