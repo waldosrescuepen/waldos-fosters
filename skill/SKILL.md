@@ -112,9 +112,29 @@ Ask: "Send this text to these N people?" Do nothing until she says yes.
    or the email send button lower down.
 6. Read the dialog for a success or error message, then close it (✕).
 
-For more than ~25 recipients, ask before using **Bulk Actions → Send Message** (select rows
-first). That dialog hasn't been checked yet: the first time, open it, describe it, and confirm
-with Claire.
+Wait ~3 s after clicking Send Message before typing: typing before the dialog finishes opening
+loses the text (nothing is sent).
+
+### B4b. Bulk send (used for big outreach; Claire OK'd "Hi there!" with no names)
+Bulk has **no first-name merge**, so bulk texts start "Hi there!". For >~25 people, offer:
+one-by-one with names (slow) or bulk without names (fast).
+1. Load the group: Contacts with the Type of Contact filter, sort **Date Contact Created
+   descending**, Entries Per Page 200. Reliable way: load `/dashboard`, then the hash URL
+   `/contacts#/?search[type_of_contact][]=<Type>&...&sort[column]=created_at&sort[order]=desc&pagination[limit]=200`
+   (URL-encoded), wait ~10 s. Combining 4+ types in one filter gave odd results, so query groups
+   separately (e.g. fosters, then potential adopters) and skip people already texted.
+   "Recent" = Date Contact Created within the window Claire gives (last time: 6 months).
+   Applicants are the **Potential Adopter** contact type (not My Applications).
+2. Tick rows by checkbox. With JS, match each checkbox to the smallest ancestor whose text has
+   exactly ONE "First Name" label (looser matching ticks wrong rows). Keep the 3 already-sent
+   people and invalid phones unticked.
+3. **Bulk Actions → Send Message**. The "Send Text Message To" field shows each selected contact's
+   **Cell Phone**, which can differ from the list's Phone column or be "N/A". **Editing that field does
+   nothing**: Petstablished sends to every *selected contact's* cell. To drop someone, untick them.
+4. Before clicking Send Text, call `read_network_requests` once (it only tracks from the first
+   call), then send. Confirm with the toast "Message Sent Successfully to N contact(s)" and N
+   POSTs to `/api/organization/contacts/send_text_message` returning 201.
+5. Close the dialog, untick everything, clear any sessionStorage keys you created.
 
 ### B5. Log and report
 Append to `~/.claude/petstablished-text-logs/YYYY-MM-DD.csv`
