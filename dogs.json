@@ -1,0 +1,99 @@
+{
+  "title": "Fosters Needed",
+  "intro": "These pups need a foster home, and some of them can't wait. Tap a dog to apply.",
+  "apply_url": "https://www.waldosrescue.org",
+  "instagram": "waldosrescue",
+  "dogs": [
+    {
+      "name": "Islander",
+      "aka": "",
+      "photo": "photos/islander.jpg",
+      "badge": "Full-time foster needed ASAP",
+      "urgent": true,
+      "tags": [
+        "1.5 years",
+        "45 lbs",
+        "Neutered male",
+        "Potty & crate trained",
+        "Good with kids & dogs",
+        "No cats"
+      ],
+      "bio": "Islander is a loving, playful, silly boy who adores cuddles, treats, walks, and spending time with his people. He is potty trained, crate trained, and knows commands like sit, stay, and lie down. He is good with children and has lived successfully with other dogs. He walks well with some leash pulling and would benefit from continued guidance. No cats, please!",
+      "petstablished_id": "",
+      "name_split": 6
+    },
+    {
+      "name": "Scandal",
+      "aka": "",
+      "photo": "photos/scandal.jpg",
+      "badge": "Foster needed ASAP",
+      "urgent": true,
+      "tags": [
+        "4 months",
+        "15–20 lbs",
+        "Female",
+        "Pee pad trained",
+        "Great with kids & pets",
+        "Leash trained"
+      ],
+      "bio": "Scandal is a joyful, playful puppy with a big personality who loves walks, toys, enrichment games, and cuddles. She is pee pad trained, walks beautifully on leash without pulling, sleeps through the night, and is wonderful with children and other animals. She is currently teething and still learning, so she needs a foster who can provide plenty of playtime, attention, and patient guidance. She has lots of puppy energy, especially in the evenings, but also enjoys long afternoon naps. Scandal is a sweet, social girl looking for a home where she can continue to grow and thrive!",
+      "petstablished_id": "",
+      "name_split": 4
+    },
+    {
+      "name": "Severance",
+      "aka": "Donovan",
+      "photo": "photos/severance.jpg",
+      "badge": "Foster needed by 11/3",
+      "urgent": true,
+      "tags": [
+        "5 months",
+        "30 lbs",
+        "Male",
+        "Good with dogs",
+        "Gentle with kids",
+        "Leash trained"
+      ],
+      "bio": "Severance is a sweet, loving boy who just wants affection and snuggles. He is calm, well-tempered, and quiet, with occasional bursts of puppy zoomies! He is mostly potty trained, walks beautifully on leash without pulling, and knows sit, paw, down, lay, and come. He does well with other dogs, is gentle with children, and enjoys being close to his people. He is still working on crate training. He needs a foster who can provide a consistent routine, patience, and lots of love while he waits for his forever home.",
+      "petstablished_id": "",
+      "name_split": 5
+    },
+    {
+      "name": "Iggy",
+      "aka": "",
+      "photo": "photos/iggy.jpg",
+      "badge": "Foster needed by 11/3",
+      "urgent": true,
+      "tags": [
+        "~10 lbs",
+        "Female",
+        "Chinese Crested mix",
+        "Velcro dog",
+        "Only pet",
+        "Adult home"
+      ],
+      "bio": "Iggy is a tiny, affectionate Chinese Crested mix who loves cuddles, playing with other dogs, and being close to her people. She is a total Velcro dog who enjoys snuggling under the covers and following her person everywhere. She is happy roaming freely indoors and is slowly building confidence with going outside. She is still working on potty training and would benefit from a patient foster who can continue helping her learn and grow. Iggy would do best as the only pet in an adult home where she can soak up all the love and attention!",
+      "petstablished_id": "",
+      "name_split": 2
+    },
+    {
+      "name": "Fargo",
+      "aka": "",
+      "photo": "photos/fargo.jpg",
+      "badge": "Foster needed by 11/8",
+      "urgent": false,
+      "tags": [
+        "1 yr 7 mos",
+        "40 lbs",
+        "Female",
+        "Crate trained",
+        "Loves people & dogs",
+        "No cats or kids"
+      ],
+      "bio": "Fargo is an energetic, intelligent girl who loves people, making dog friends, playing with toys, and learning tricks for treats. She is affectionate and curious, and she thrives when given structure, enrichment, and a consistent routine. She is still working on housebreaking and learning how to settle. She is crate trained and settles with her favorite blanket and chew toy. Fargo would do best in a home without cats, children, or resident dogs who are anxious or older.",
+      "petstablished_id": "",
+      "name_split": 3
+    }
+  ],
+  "site_url": ""
+}

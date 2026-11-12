@@ -1,21 +1,12 @@
-# petstablished-text
+# Waldo's Rescue Pen: Fosters Needed
 
-A Claude Code skill for sending custom text messages to Petstablished contacts
-(adopters, fosters, applicants) through Petstablished's own **Send Text** feature.
+Public foster page (GitHub Pages, served from `docs/`) plus the Claude Code skill
+that keeps it updated and texts potential fosters through Petstablished.
 
-## How it works
-Ask Claude something like *"text Amanda Aaron that Biscuit is ready for pickup Saturday"*.
-Claude:
-1. opens Petstablished in your signed-in Chrome (Claude in Chrome extension),
-2. looks up the contacts and their phone numbers,
-3. shows you the recipients and the exact text and **waits for your OK**,
-4. sends each text with Manage → Send Message → Send Text,
-5. logs what was sent to `~/.claude/petstablished-text-logs/` (outside this repo).
+- **Edit the dogs:** change `dogs.json`, run `python3 build.py`, commit and push.
+- **With Claude:** "put Fargo and Iggy on the foster page, Iggy needs a foster by Friday",
+  then "text the potential fosters the link". Claude previews everything and waits for your OK.
+- Skill: `skill/SKILL.md` (linked into `~/.claude/skills/waldos-fosters`).
 
-Claude never stores or types your Petstablished password. Stay signed in to Petstablished in Chrome.
-
-## Install on a Mac
-```bash
-git clone <this repo> ~/petstablished-text-skill
-ln -s ~/petstablished-text-skill ~/.claude/skills/petstablished-text
-```
+Only dog info goes on the page. No foster or adopter names, addresses or phone numbers.
+Text logs are kept outside the repo in `~/.claude/petstablished-text-logs/`.
