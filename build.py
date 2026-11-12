@@ -12,6 +12,7 @@ import datetime
 import html
 import json
 import pathlib
+import urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent
 data = json.loads((ROOT / "dogs.json").read_text())
@@ -34,12 +35,15 @@ def card(d):
     if d.get("badge"):
         cls = "badge urgent" if d.get("urgent") else "badge"
         badge = f'<span class="{cls}">{e(d["badge"])}</span>'
-    apply = d.get("apply_url") or data["apply_url"]
+    email = d.get("apply_email") or data["apply_email"]
+    subject = urllib.parse.quote(f"Foster application: {name}")
+    body = urllib.parse.quote(f"Hi Andi,\n\nI'd like to foster {name}. A bit about me and my home:\n\n")
+    apply = f"mailto:{email}?subject={subject}&body={body}"
     return f"""<article class="card">
 <div class="photo"><img src="{e(d['photo'])}" alt="{e(name)}" loading="lazy">{badge}</div>
 <div class="body"><h2><span class="w">{e(name[:k])}</span><span class="t">{e(name[k:])}</span>{aka}</h2>
 <div class="tags">{tags}</div><p>{e(d['bio'])}</p>
-<a class="cta" href="{e(apply)}" target="_blank" rel="noopener">Apply to Foster {e(name)}</a></div></article>"""
+<a class="cta" href="{e(apply)}">Apply to Foster {e(name)}</a></div></article>"""
 
 
 dogs = data["dogs"]

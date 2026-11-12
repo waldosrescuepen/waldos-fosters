@@ -1,7 +1,6 @@
 {
   "title": "Fosters Needed",
-  "intro": "These pups need a foster home, and some of them can't wait. Tap Apply on any dog to help.",
-  "apply_url": "https://www.waldosrescue.org",
+  "intro": "These pups need a foster home, and some of them can't wait. Tap a dog's button to email us and raise your hand.",
   "instagram": "waldosrescue",
   "dogs": [
     {
@@ -77,5 +76,6 @@
       "petstablished_id": "2882262"
     }
   ],
-  "site_url": "https://waldosrescuepen.github.io/waldos-fosters/"
+  "site_url": "https://waldosrescuepen.github.io/waldos-fosters/",
+  "apply_email": "andi@waldosrescue.org"
 }

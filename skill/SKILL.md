@@ -11,6 +11,7 @@ Live page: https://waldosrescuepen.github.io/waldos-fosters/ (GitHub account: wa
 - `build.py`: `python3 build.py` renders `docs/index.html` from dogs.json.
 - `docs/photos/`: photos copied locally (optional; Petstablished photo URLs work directly).
 - `site_url` in dogs.json = the live page URL (texts link here).
+- `apply_email` in dogs.json = where "Apply to Foster" buttons send email (andi@waldosrescue.org); subject is pre-filled with the dog name.
 
 ## Ground rules (never skip)
 1. **Browser:** use **Claude in Chrome** (`mcp__claude-in-chrome__*`; load them with ONE ToolSearch
