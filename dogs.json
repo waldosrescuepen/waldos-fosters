@@ -4,42 +4,6 @@
   "instagram": "waldosrescue",
   "dogs": [
     {
-      "name": "Prim",
-      "name_split": 2,
-      "aka": "",
-      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6296612/IMG_2137.jpeg",
-      "badge": "Foster needed ASAP",
-      "urgent": true,
-      "tags": [
-        "Needs a dog buddy",
-        "3 months",
-        "18 lbs",
-        "Female",
-        "House trained",
-        "Good with kids & dogs"
-      ],
-      "bio": "Prim is a smart, gentle puppy who learns fast and loves couch cuddles, blankets and playtime. She must be fostered in a home with another dog.",
-      "petstablished_id": "2882258"
-    },
-    {
-      "name": "Maude Ivory",
-      "name_split": 5,
-      "aka": "",
-      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6286378/IMG_8284.jpeg",
-      "badge": "Foster needed ASAP",
-      "urgent": true,
-      "tags": [
-        "6 months",
-        "30 lbs",
-        "Female",
-        "Crate trained",
-        "Pee-pad trained",
-        "Good with kids & dogs"
-      ],
-      "bio": "Maude Ivory is a quiet, sweet girl who loves sofa naps and long walks. She never barks, is great on leash and is almost house trained.",
-      "petstablished_id": "2882257"
-    },
-    {
       "name": "Haymitch",
       "name_split": 3,
       "aka": "Mitchy",
@@ -47,33 +11,69 @@
       "badge": "Foster needed by 11/18",
       "urgent": true,
       "tags": [
-        "With Gale or a dog buddy",
+        "Must be fostered with another dog",
         "3 months",
         "15 lbs",
         "Male",
-        "Potty & pee-pad trained",
-        "Good with kids & dogs"
+        "Crate trained",
+        "Potty & leash training"
       ],
-      "bio": "Haymitch is a clever, cuddly puppy who already knows sit, down, come and crate. He needs to be fostered with his brother Gale or in a home with another dog.",
+      "bio": "An adorable, silly boy who loves playing, snuggling, and learning tricks! He's crate trained and doing great with potty and leash training. He thrives with structure, playtime, and puppy naps! 💤 Must be fostered with another dog.",
       "petstablished_id": "2882261"
     },
     {
-      "name": "Gale",
-      "name_split": 2,
-      "aka": "Goose",
-      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6305207/IMG_3490.jpeg",
-      "badge": "Foster needed by 11/18",
+      "name": "Suits",
+      "name_split": 3,
+      "aka": "",
+      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6224084/IMG_6622.jpeg",
+      "badge": "Foster needed by 11/20",
       "urgent": true,
       "tags": [
-        "With Haymitch or a dog buddy",
-        "3 months",
-        "10 lbs",
+        "4–5 months",
+        "25 lbs",
         "Male",
-        "Crate & potty trained",
-        "Good with kids & dogs"
+        "Sleeps through the night",
+        "Velcro dog",
+        "Learning basic commands"
       ],
-      "bio": "Gale is a calm, goofy cuddle bug who loves sleeping on your shoulder and is very quiet. He needs to be fostered with his brother Haymitch or in a home with another dog.",
-      "petstablished_id": "2882262"
+      "bio": "Suits is an adorable, energetic, affectionate puppy who loves cuddles, kisses, playtime, and being close to his people. He’s a happy, curious little Velcro dog who sleeps through the night, is learning basic commands, and needs a patient foster to help guide him through puppyhood and teething!",
+      "petstablished_id": "2847169"
+    },
+    {
+      "name": "Commander",
+      "name_split": 7,
+      "aka": "",
+      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6301963/IMG_5316.jpeg",
+      "badge": "Foster needed by 11/20",
+      "urgent": true,
+      "tags": [
+        "2–3 years",
+        "5 lbs",
+        "Male",
+        "Loves toys",
+        "Blanket snuggler",
+        "Learning potty & leash"
+      ],
+      "bio": "Commander is a tiny, energetic dog who loves his toys, playing, and snuggling under a blanket with his favorite person. He is still learning potty training, leash skills, and crate comfort!",
+      "petstablished_id": "2882265"
+    },
+    {
+      "name": "Ampert",
+      "name_split": 3,
+      "aka": "",
+      "photo": "photos/ampert.jpg",
+      "badge": "Foster needed by 11/22",
+      "urgent": true,
+      "tags": [
+        "8–9 months",
+        "50 lbs",
+        "Male",
+        "Potty trained",
+        "Great on leash",
+        "Loves other dogs"
+      ],
+      "bio": "Ampert is a goofy, affectionate boy who loves long walks, other dogs, bones, and cuddling on the couch for hours. He is potty trained, walks beautifully on leash, does well home alone!",
+      "petstablished_id": "2882252"
     }
   ],
   "site_url": "https://waldosrescuepen.github.io/waldos-fosters/",
