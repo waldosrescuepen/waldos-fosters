@@ -136,6 +136,21 @@ one-by-one with names (slow) or bulk without names (fast).
    POSTs to `/api/organization/contacts/send_text_message` returning 201.
 5. Close the dialog, untick everything, clear any sessionStorage keys you created.
 
+### B4c. Email (same dialog, used together with the text)
+Claire's usual outreach = text + email to: Foster, Foster - Active, Potential Foster, Potential
+Adopter, Adopter, Donor contacts created in the last 6 months. Send in batches per group
+(fosters → potential adopters → adopters → donors), skipping people already done this round (key
+by first+last+email), so nobody gets anything twice.
+- In the same bulk dialog, below the text part: **Email** is prefilled with the selected contacts'
+  emails. Set **Respond to** = andi@waldosrescue.org, fill **Subject**, and set the body with
+  `CKEDITOR.instances.message_body.setData(html)` (bullets, bold names, page link, Andi's email).
+- **Send Email** sends a separate email to each person (Sent Messages shows one row per recipient,
+  so addresses aren't exposed). **Send Both** does text and email in one go, but sending them
+  separately makes each one easier to confirm.
+- Confirm: toast "Message sent to: …" and one POST `/api/organization/contacts/send_messages` → 201.
+  Sent Messages count rises gradually as Petstablished works through the queue.
+- Show Claire the subject and body for approval first, like the text.
+
 ### B5. Log and report
 Append to `~/.claude/petstablished-text-logs/YYYY-MM-DD.csv`
 (`timestamp,name,phone,contact_type,status,message`). Status is `sent`, `failed: …` or
