@@ -1,79 +1,25 @@
 {
   "title": "Fosters Needed",
-  "intro": "These pups need a foster home, and some of them can't wait. Tap a dog's button to email us and raise your hand.",
+  "intro": "Fargo needs a new foster home. Tap the button to email us and raise your hand.",
   "instagram": "waldosrescue",
   "dogs": [
     {
-      "name": "Haymitch",
+      "name": "Fargo",
       "name_split": 3,
-      "aka": "Mitchy",
-      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6298207/IMG_3418.jpeg",
-      "badge": "Foster needed by 11/18",
+      "aka": "",
+      "photo": "photos/fargo.jpg",
+      "badge": "New foster needed",
       "urgent": true,
       "tags": [
-        "Must be fostered with another dog",
-        "3 months",
-        "15 lbs",
-        "Male",
+        "1 yr 8 mos",
+        "40 lbs",
+        "Female",
         "Crate trained",
-        "Potty & leash training"
+        "Loves people & dogs",
+        "No cats or kids"
       ],
-      "bio": "An adorable, silly boy who loves playing, snuggling, and learning tricks! He's crate trained and doing great with potty and leash training. He thrives with structure, playtime, and puppy naps! 💤 Must be fostered with another dog.",
-      "petstablished_id": "2882261"
-    },
-    {
-      "name": "Suits",
-      "name_split": 3,
-      "aka": "",
-      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6224084/IMG_6622.jpeg",
-      "badge": "Foster needed by 11/20",
-      "urgent": true,
-      "tags": [
-        "4–5 months",
-        "25 lbs",
-        "Male",
-        "Sleeps through the night",
-        "Velcro dog",
-        "Learning basic commands"
-      ],
-      "bio": "Suits is an adorable, energetic, affectionate puppy who loves cuddles, kisses, playtime, and being close to his people. He’s a happy, curious little Velcro dog who sleeps through the night, is learning basic commands, and needs a patient foster to help guide him through puppyhood and teething!",
-      "petstablished_id": "2847169"
-    },
-    {
-      "name": "Commander",
-      "name_split": 7,
-      "aka": "",
-      "photo": "https://s3.us-east-1.amazonaws.com/petstablished-app-beta/uploads/image/image/6301963/IMG_5316.jpeg",
-      "badge": "Foster needed by 11/20",
-      "urgent": true,
-      "tags": [
-        "2–3 years",
-        "5 lbs",
-        "Male",
-        "Loves toys",
-        "Blanket snuggler",
-        "Learning potty & leash"
-      ],
-      "bio": "Commander is a tiny, energetic dog who loves his toys, playing, and snuggling under a blanket with his favorite person. He is still learning potty training, leash skills, and crate comfort!",
-      "petstablished_id": "2882265"
-    },
-    {
-      "name": "Ampert",
-      "name_split": 3,
-      "aka": "",
-      "photo": "photos/ampert.jpg",
-      "badge": "Foster needed by 11/22",
-      "urgent": true,
-      "tags": [
-        "8–9 months",
-        "50 lbs",
-        "Male",
-        "Potty trained",
-        "Great on leash",
-        "Loves other dogs"
-      ],
-      "bio": "Ampert is a goofy, affectionate boy who loves long walks, other dogs, bones, and cuddling on the couch for hours. He is potty trained, walks beautifully on leash, does well home alone!",
-      "petstablished_id": "2882252"
+      "bio": "Fargo is an energetic, smart, affectionate girl who loves people, dog friends, toys and learning tricks for treats. She's crate trained, still working on housebreaking and settling, and would do best with structure in a home without cats, children, or anxious or older dogs.",
+      "petstablished_id": "2847174"
     }
   ],
   "site_url": "https://waldosrescuepen.github.io/waldos-fosters/",

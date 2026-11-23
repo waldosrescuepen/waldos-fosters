@@ -72,6 +72,7 @@ header .kick{{color:var(--teal);letter-spacing:.18em;font-size:13px;font-weight:
 header h1{{font-family:'Playfair Display',serif;font-size:clamp(34px,7vw,56px);margin:8px 0}}header h1 span{{color:var(--teal)}}
 header p{{color:var(--muted);max-width:620px;margin:0 auto}}
 main{{max-width:800px;margin:0 auto;padding:24px 16px 48px;display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(min(310px,100%),1fr))}}
+.one{{max-width:452px}}
 .card{{background:var(--card);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;border:1px solid rgba(64,169,160,.25)}}
 .photo{{position:relative;aspect-ratio:3/4}}.photo img{{width:100%;height:100%;object-fit:cover;display:block}}
 .photo::after{{content:"";position:absolute;inset:auto 0 0 0;height:30%;background:linear-gradient(transparent,var(--card))}}
@@ -88,7 +89,7 @@ footer{{text-align:center;color:var(--muted);padding:0 16px 40px;font-size:14px}
 </style></head><body>
 <header><div class="kick">Waldo's Rescue Pen</div><h1>Fosters <span>Needed</span></h1>
 <p>{e(data['intro'])}</p></header>
-<main>
+<main{' class="one"' if n == 1 else ""}>
 {cards}
 </main>
 <footer>Waldo's Rescue Pen is a 501(c)(3) foster-based rescue · <a href="https://www.instagram.com/{e(data['instagram'])}" target="_blank" rel="noopener">@{e(data['instagram'])}</a><br>Updated {updated}</footer>
